@@ -1,0 +1,13 @@
+Hi there,
+Thankyou for your interest in hacktoberfest and in helping others make there first contribution to open source.
+Solve the issue
+Q) Put a condition if he has attendance below 75 percent but he has medical certificate than he is allowed to enter the class and make all the input as user input
+
+# Attendence Program
+num_of_class=100
+num_of_class_attend=30
+per=(num_of_class_attend/num_of_class)*100
+if per>75:
+  println("allowed")
+else:
+  println("Not Allowed")
